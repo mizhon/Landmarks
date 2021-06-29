@@ -11,6 +11,8 @@
 		3A20C10D267DCF520066C44D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A20C10C267DCF520066C44D /* ContentView.swift */; };
 		3A20C10F267DCF550066C44D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A20C10E267DCF550066C44D /* Assets.xcassets */; };
 		3A20C112267DCF550066C44D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A20C111267DCF550066C44D /* Preview Assets.xcassets */; };
+		3A20C11A267DE2070066C44D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A20C119267DE2070066C44D /* CircleImage.swift */; };
+		3A20C11C267DE9600066C44D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A20C11B267DE9600066C44D /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		3A20C10E267DCF550066C44D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A20C111267DCF550066C44D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A20C113267DCF550066C44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A20C119267DE2070066C44D /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		3A20C11B267DE9600066C44D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 				3A20C10A267DCF520066C44D /* LandmarksApp.swift */,
 				3A20C10C267DCF520066C44D /* ContentView.swift */,
 				3A20C10E267DCF550066C44D /* Assets.xcassets */,
+				3A20C119267DE2070066C44D /* CircleImage.swift */,
 				3A20C113267DCF550066C44D /* Info.plist */,
 				3A20C110267DCF550066C44D /* Preview Content */,
+				3A20C11B267DE9600066C44D /* MapView.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A20C10D267DCF520066C44D /* ContentView.swift in Sources */,
+				3A20C11C267DE9600066C44D /* MapView.swift in Sources */,
 				3A20C10B267DCF520066C44D /* LandmarksApp.swift in Sources */,
+				3A20C11A267DE2070066C44D /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +277,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TD7AT56XE;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Landmarks/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -290,6 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TD7AT56XE;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Landmarks/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
